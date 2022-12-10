@@ -90,7 +90,7 @@ class MyProfileScreen extends StatelessWidget {
               children: [
                 ProfileDetailRow(
                     title: 'Date of Admission', value: '26 Nov, 2019'),
-                ProfileDetailRow(title: 'Date of Birth', value: '6 Nov 1999'),
+                ProfileDetailRow(title: 'Date of Birth', value: '------'),
               ],
             ),
             sizedBox,
@@ -100,15 +100,15 @@ class MyProfileScreen extends StatelessWidget {
             ),
             ProfileDetailColumn(
               title: 'Father Name',
-              value: 'Mohammad Ali',
+              value: '-----------',
             ),
             ProfileDetailColumn(
               title: 'Mother Name',
-              value: 'Afroza Akter',
+              value: '----------',
             ),
             ProfileDetailColumn(
               title: 'Phone Number',
-              value: '+880-1300374268',
+              value: '----------',
             ),
           ],
         ),
